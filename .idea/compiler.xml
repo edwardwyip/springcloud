@@ -11,8 +11,11 @@
         <module name="eureka-provider" />
         <module name="eureka-server" />
         <module name="Eureka-Server" />
-        <module name="SpringCloud" />
         <module name="springcloud" />
+        <module name="SpringCloud" />
+        <module name="User-Api" />
+        <module name="User-Consumer" />
+        <module name="User-Provider" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +24,9 @@
       <module name="Eureka-Consumer" options="-parameters" />
       <module name="Eureka-Provider" options="-parameters" />
       <module name="Eureka-Server" options="-parameters" />
+      <module name="User-Api" options="-parameters" />
+      <module name="User-Consumer" options="-parameters" />
+      <module name="User-Provider" options="-parameters" />
       <module name="eureka-provider" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>

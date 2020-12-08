@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/Eureka-Server/pom.xml" />
         <option value="$PROJECT_DIR$/Eureka-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/Eureka-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/User-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/User-Api/pom.xml" />
       </list>
     </option>
   </component>
