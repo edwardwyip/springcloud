@@ -8,7 +8,7 @@ public class MainController {
 
     @GetMapping("/getHi")
     public String getHi(){
-        return "Hi";
+        return "Hi Provider";
     }
 
 }
