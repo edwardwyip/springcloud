@@ -15,9 +15,13 @@
         <module name="SpringCloud" />
         <module name="User-Api" />
         <module name="User-Consumer" />
+        <module name="User-Consumer2" />
         <module name="User-Provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="User-Consumer2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -26,6 +30,7 @@
       <module name="Eureka-Server" options="-parameters" />
       <module name="User-Api" options="-parameters" />
       <module name="User-Consumer" options="-parameters" />
+      <module name="User-Consumer2" options="-parameters" />
       <module name="User-Provider" options="-parameters" />
       <module name="eureka-provider" options="-parameters" />
       <module name="eureka-server" options="-parameters" />

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Map;
 
-@FeignClient(name = "user-provider")
+@FeignClient(name = "user-provider", fallback = UserProviderBack.class)
 public interface ConsumerApi extends UserApi {
 
     @GetMapping("/getMap")
