@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c42f756c-a31f-437c-9548-91821a7c86f0" name="Default Changelist" comment="整合actuator">
+    <list default="true" id="c42f756c-a31f-437c-9548-91821a7c86f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-Consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User-Consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/User-Consumer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/User-Api/target/" />
     <ignored path="$PROJECT_DIR$/User-Consumer2/target/" />
     <ignored path="$PROJECT_DIR$/Zuul-Test/target/" />
+    <ignored path="$PROJECT_DIR$/Admin-Test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,26 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zuul-Test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Zuul-Test/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,7 +64,6 @@
         <option value="$PROJECT_DIR$/Eureka-Consumer/src/main/java/com/bjmashibing/eurekaconsumer/EurekaconsumerApplication.java" />
         <option value="$PROJECT_DIR$/Eureka-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/Eureka-Provider/src/main/java/com/bjmashibing/eurekaprovider/HealthStatusService.java" />
-        <option value="$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Eureka-Server/src/main/java/com/bjmashibing/eurekaserver/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/Eureka-Provider/src/main/java/com/bjmashibing/eurekaprovider/MainController.java" />
         <option value="$PROJECT_DIR$/Eureka-Provider/src/main/resources/application.properties" />
@@ -89,7 +73,6 @@
         <option value="$PROJECT_DIR$/Eureka-Consumer/src/main/java/com/bjmashibing/eurekaconsumer/MainController.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/User-Consumer/src/main/java/com/bjmashibing/userconsumer/UserApi.java" />
-        <option value="$PROJECT_DIR$/User-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/User-Provider/src/main/java/com/bjmashibing/userprovider/UserController.java" />
         <option value="$PROJECT_DIR$/User-Provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/User-Consumer2/pom.xml" />
@@ -109,15 +92,19 @@
         <option value="$PROJECT_DIR$/User-Consumer/src/main/java/com/bjmashibing/userconsumer/UserProviderBackFactory.java" />
         <option value="$PROJECT_DIR$/User-Consumer/src/main/java/com/bjmashibing/userconsumer/RestService.java" />
         <option value="$PROJECT_DIR$/User-Consumer/src/main/java/com/bjmashibing/userconsumer/HystrixTest.java" />
-        <option value="$PROJECT_DIR$/User-Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/User-Consumer/src/main/java/com/bjmashibing/userconsumer/UserConsumerApplication.java" />
         <option value="$PROJECT_DIR$/Zuul-Test/src/main/java/com/bjmashibing/zuultest/ZuulTestApplication.java" />
-        <option value="$PROJECT_DIR$/Eureka-Server/pom.xml" />
         <option value="$PROJECT_DIR$/Eureka-Server/src/main/resources/application-erk1.properties" />
         <option value="$PROJECT_DIR$/Eureka-Server/src/main/resources/application-erk2.properties" />
-        <option value="$PROJECT_DIR$/User-Consumer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Zuul-Test/pom.xml" />
         <option value="$PROJECT_DIR$/Zuul-Test/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Admin-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/Admin-Test/src/main/java/com/bjmashibing/admintest/AdminTestApplication.java" />
+        <option value="$PROJECT_DIR$/User-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/User-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/User-Consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Eureka-Server/pom.xml" />
       </list>
     </option>
   </component>
@@ -133,12 +120,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="admin-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -147,7 +129,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="901" />
     <option name="width" value="1019" />
     <option name="height" value="1040" />
@@ -165,32 +147,6 @@
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul-Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -206,7 +162,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607500979973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607503609213" />
     <property name="last_opened_file_path" value="D:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -241,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulTestApplication">
+  <component name="RunManager" selected="Spring Boot.AdminTestApplication">
     <configuration name="HystrixTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bjmashibing.userconsumer.HystrixTest" />
       <module name="User-Consumer" />
@@ -251,6 +207,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Admin-Test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjmashibing.admintest.AdminTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,6 +316,7 @@
       <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
       <item itemvalue="Spring Boot.EurekaProviderApplication (1)" />
       <item itemvalue="Spring Boot.ZuulTestApplication" />
+      <item itemvalue="Spring Boot.AdminTestApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -379,7 +343,7 @@
       <workItem from="1607389128889" duration="16109000" />
       <workItem from="1607412658379" duration="14432000" />
       <workItem from="1607432479073" duration="1637000" />
-      <workItem from="1607480889062" duration="10695000" />
+      <workItem from="1607480889062" duration="12663000" />
     </task>
     <task id="LOCAL-00001" summary="eureka-consumer">
       <created>1607392218945</created>
@@ -430,16 +394,23 @@
       <option name="project" value="LOCAL" />
       <updated>1607495148458</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="zuul">
+      <created>1607501331634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607501331634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45486000" />
+    <option name="totallyTimeSpent" value="47454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="901" y="0" width="1019" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46137786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -450,7 +421,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49944383" weight="0.503792" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49791232" visible="true" weight="0.4084507" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791232" visible="true" weight="0.40793827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -465,7 +436,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32853332" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19733334" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32925472" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -475,7 +446,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45929018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46137786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -486,14 +457,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49944383" weight="0.503792" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49895614" visible="true" weight="0.415656" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791232" weight="0.40793827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3296582" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50104386" side_tool="true" weight="0.4225352" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020877" side_tool="true" weight="0.415656" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32745314" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -501,7 +472,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32853332" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19733334" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32925472" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -534,30 +505,10 @@
     <MESSAGE value="hystrix" />
     <MESSAGE value="feign整合hystrix, 需要springboot2.2.6，springcloud Hoxton.SR3" />
     <MESSAGE value="整合actuator" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合actuator" />
+    <MESSAGE value="zuul" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.10.10/eureka-client-1.10.10.jar!/com/netflix/discovery/shared/LookupService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eureka-Provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/3.0.0-M6/spring-cloud-commons-3.0.0-M6.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Eureka-Provider/src/main/java/com/bjmashibing/eurekaprovider/HealthStatusService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -612,13 +563,6 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon/2.2.2/ribbon-2.2.2.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eureka-Consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Eureka-Provider/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,13 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User-Provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -850,20 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eureka-Server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/User-Consumer/src/main/java/com/bjmashibing/userconsumer/UserConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -872,20 +795,6 @@
             <element signature="e#726#727#0" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User-Consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User-Consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -910,7 +819,66 @@
     <entry file="file://$PROJECT_DIR$/Zuul-Test/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin-Test/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin-Test/src/main/java/com/bjmashibing/admintest/AdminTestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eureka-Consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin-Test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-Provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-Consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-Consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="68" selection-start-line="68" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eureka-Server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
