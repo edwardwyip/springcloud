@@ -6,8 +6,7 @@
     <file url="file://$PROJECT_DIR$/Eureka-Server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/User-Api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/User-Consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User-Consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User-Consumer2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/User-Provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Zuul-Test" charset="UTF-8" />
   </component>
 </project>

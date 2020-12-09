@@ -17,6 +17,7 @@
         <module name="User-Consumer" />
         <module name="User-Consumer2" />
         <module name="User-Provider" />
+        <module name="Zuul-Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="User-Consumer" options="-parameters" />
       <module name="User-Consumer2" options="-parameters" />
       <module name="User-Provider" options="-parameters" />
+      <module name="Zuul-Test" options="-parameters" />
       <module name="eureka-provider" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>

@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/User-Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/User-Api/pom.xml" />
+        <option value="$PROJECT_DIR$/Zuul-Test/pom.xml" />
       </list>
     </option>
   </component>
